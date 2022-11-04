@@ -58,6 +58,28 @@ public class QuestionsPointsFactory {
         list.add(
                 new QuestionsPoint(MessageResponseEnum.GOAL_PRACTICE_MESSAGE, null)
         );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.BURN_OUT_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.BURN_OUT_SYNDROME_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.ABOUT_BURN_OUT_SYNDROME_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.PREVENTION_BURN_OUT_SYNDROME_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.OVERCOMING_BURN_OUT_SYNDROME_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.ANXIETY_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.TESTING_ANXIETY_MESSAGE, null)
+        );
+
         Arrays.stream(ButtonResponseEnum.values())
                 .map(buttonResponseEnum -> new QuestionsPoint(buttonResponseEnum))
                 .forEach(questionsPoint -> list.add(questionsPoint));
