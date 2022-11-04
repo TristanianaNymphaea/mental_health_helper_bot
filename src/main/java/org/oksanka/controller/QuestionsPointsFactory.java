@@ -46,7 +46,18 @@ public class QuestionsPointsFactory {
                         )
                 )
         );
-
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.MANIFESTATION_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.PRACTICE_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.CONTINUE_PRACTICE_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.GOAL_PRACTICE_MESSAGE, null)
+        );
         Arrays.stream(ButtonResponseEnum.values())
                 .map(buttonResponseEnum -> new QuestionsPoint(buttonResponseEnum))
                 .forEach(questionsPoint -> list.add(questionsPoint));
