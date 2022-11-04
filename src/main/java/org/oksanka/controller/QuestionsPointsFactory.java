@@ -79,6 +79,30 @@ public class QuestionsPointsFactory {
         list.add(
                 new QuestionsPoint(MessageResponseEnum.TESTING_ANXIETY_MESSAGE, null)
         );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.HELPING_ANXIETY_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.OTHER_HELPING_ANXIETY_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.MEDICINE_HELPING_ANXIETY_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.DEPRESSION_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.SPECIES_DEPRESSION_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.TESTING_DEPRESSION_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.RECOMMENDATION_DEPRESSION_MESSAGE, null)
+        );
+        list.add(
+                new QuestionsPoint(MessageResponseEnum.PREVENTION_DEPRESSION_MESSAGE, null)
+        );
 
         Arrays.stream(ButtonResponseEnum.values())
                 .map(buttonResponseEnum -> new QuestionsPoint(buttonResponseEnum))
