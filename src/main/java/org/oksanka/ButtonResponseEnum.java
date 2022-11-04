@@ -64,10 +64,7 @@ public enum ButtonResponseEnum {
            Щоб дізнатися більше про прояви депресії натисни, будь ласка, /depression
             
            Щоб повернутися до menu натисни, будь ласка, /begin       
-           """),
-
-    BUTTON_A5_MESSAGE("A5", "Привіт! Натисни, будь ласка, /start, щоб розпочати спілкування."),
-    BUTTON_A6_MESSAGE("A6", "Привіт! Натисни, будь ласка, /start, щоб розпочати спілкування.");
+           """);
 
     private final String key;
     private final String message;

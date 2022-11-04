@@ -40,9 +40,8 @@ public class QuestionsPointsFactory {
                                 buildButton("переживаєш стрес", "A1"),
                                 buildButton("відчуття виснаження на роботі", "A2"),
                                 buildButton("надмірна тривожність, занепокоєння", "A3"),
-                                buildButton("пригнічений настрій", "A4"),
-                                buildButton("небажання жити", "A5"),
-                                buildButton("незрозумілі відчуття, галюцинації", "A6")
+                                buildButton("пригнічений настрій", "A4")
+
                         )
                 )
         );
