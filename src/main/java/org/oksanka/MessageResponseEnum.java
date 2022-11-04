@@ -352,9 +352,9 @@ public enum MessageResponseEnum {
     """),
 
     TESTING_DEPRESSION_MESSAGE("/depression_testing", """
-    Щоб визначити ймовірність у тебе депресивного роздаду за посиланням https://cbt-therapist.net/PHQ-9
+    Щоб визначити ймовірність у тебе депресивного роздаду перейди за посиланням https://cbt-therapist.net/PHQ-9
     
-    Також, рекомендую пройти тестування для визначуння рівня тривожності за посиланням 
+    Також, рекомендую пройти тестування для визначення рівня тривожності за посиланням 
     https://www.samopomi.ch/get-tested/test-dlja-skriningu-trivozhnosti-gad-7
     
     Щоб дізнатися рекомендації, натисни, будь ласка, /recommendation
