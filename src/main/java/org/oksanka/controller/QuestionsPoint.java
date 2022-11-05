@@ -1,7 +1,7 @@
 package org.oksanka.controller;
 
-import org.oksanka.ButtonResponseEnum;
-import org.oksanka.MessageResponseEnum;
+import org.oksanka.enums.ButtonResponseEnum;
+import org.oksanka.enums.MessageResponseEnum;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;

@@ -1,7 +1,7 @@
 package org.oksanka.controller;
 
-import org.oksanka.ButtonResponseEnum;
-import org.oksanka.MessageResponseEnum;
+import org.oksanka.enums.ButtonResponseEnum;
+import org.oksanka.enums.MessageResponseEnum;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 
 import java.util.ArrayList;
